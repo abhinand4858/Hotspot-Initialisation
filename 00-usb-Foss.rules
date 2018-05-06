@@ -1,2 +1,2 @@
-ACTION=="add", ATTRS{idVendor}=="0cf3", ATTRS{idProduct}=="9271",  RUN+="/usr/local/hotspot.sh"    
+ACTION=="add", ATTRS{idVendor}=="0cf3", ATTRS{idProduct}=="9271",  RUN+="/opt/attendance/hotspot.sh"  
 ACTION=="remove", ATTRS{idVendor}=="0cf3", ATTRS{idProduct}=="9271", RUN+=""
